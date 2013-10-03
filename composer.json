@@ -1,0 +1,28 @@
+{
+	"name": "carrlabs/git-wrapper",
+	"description": "A wrapper for the git command line executable, based on YiiGit (https://github.com/phpnode/YiiGit).  Allows access to all git commands via a simple object oriented interface.",
+	"homepage": "https://github.com/CarrLabs/git-wrapper",
+	"type": "library",
+	"keywords": [
+		"git",
+		"vcs"
+	],
+	"license": "BSD-2-Clause",
+	"support": {
+		"issues": "https://github.com/CarrLabs/git-wrapper/issues",
+		"wiki": "https://github.com/CarrLabs/git-wrapper/wiki",
+		"source": "https://github.com/CarrLabs/git-wrapper"
+	},
+	"authors": [
+		{
+			"name": "Brent Goldthwaite",
+			"email": "brent@carr-labs.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"autoload": {
+		"psr-0": {
+			"CarrLabs\GitWrapper\\": "src/"
+		}
+	}
+}
